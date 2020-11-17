@@ -1,0 +1,19 @@
+{
+  "name": "backend-boiler-plate-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heminjohnson/backend-boiler-plate-typescript.git"
+  },
+  "author": "Hemin Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heminjohnson/backend-boiler-plate-typescript/issues"
+  },
+  "homepage": "https://github.com/heminjohnson/backend-boiler-plate-typescript#readme"
+}
