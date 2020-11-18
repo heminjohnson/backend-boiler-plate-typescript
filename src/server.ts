@@ -1,5 +1,8 @@
 import express from "express";
+import middlewares from "./middlewares";
 
 const app = express();
 
-export default app
+app.use(middlewares);
+
+export default app;
