@@ -1,2 +1,2 @@
-export { default as handleHelloGermany } from "./handleHelloGermany";
-export { default as handleHelloWorld } from "./handleHelloWorld";
+export { default as handleHealth } from "./handleHealth";
+export { default as handleCategory } from "./handleCategory";

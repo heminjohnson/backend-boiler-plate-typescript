@@ -3,13 +3,11 @@ config();
 
 import express from "express";
 import middlewares from "./middlewares";
-
-import { helloRouter } from "./routers";
+import routers from "./routers";
 
 const app = express();
 
 app.use(middlewares);
-
-app.use(helloRouter);
+app.use(routers);
 
 export default app;
