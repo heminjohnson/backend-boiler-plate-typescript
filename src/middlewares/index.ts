@@ -1,9 +1,8 @@
-import express from "express"
-import cors from "cors"
-import morgan from "morgan"
-import helmet from "helmet"
-import dummyMiddleware from './dummyMiddleware'
+import express from "express";
+import cors from "cors";
+import helmet from "helmet";
+import dummyMiddleware from "./dummyMiddleware";
 
-const middlewares =  [express.json(), cors(), morgan("common"), helmet(), dummyMiddleware]
+const middlewares = [express.json(), cors(), helmet(), dummyMiddleware];
 
-export default middlewares
+export default middlewares;
