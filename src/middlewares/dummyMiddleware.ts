@@ -5,7 +5,6 @@ const dummyMiddleware = async (
   res: Response,
   next: NextFunction
 ) => {
-  console.log("--- DUMMY MIDDLEWARE TRIGGERED ---");
   next();
 };
 
