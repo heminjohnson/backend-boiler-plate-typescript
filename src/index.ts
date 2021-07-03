@@ -1,7 +1,8 @@
 import app from "./server";
+import "./database/createConnection";
 
-const port = 5000;
+const port: number = process.env.PORT ? parseInt(process.env.PORT) : 5000;
 
 app.listen(port, () => {
-  console.log("Server is up on port " + port);
+  console.log(`Server is up on port ${port}`);
 });

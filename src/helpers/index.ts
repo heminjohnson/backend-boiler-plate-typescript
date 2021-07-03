@@ -1,2 +1,1 @@
-export { default as dummyHelperOne } from "./dummyHelperOne";
-export { default as dummyHelperTwo } from "./dummyHelperTwo";
+export { default as errorLogger } from "./errorLogger";
