@@ -19,19 +19,23 @@ node version: 12
 
 Clone this repository and run
 
-```javascript
+``` javascript
+docker-compose up // This runs a mariadb database in your local machine 
+```
+
+``` javascript
 npm install
 ```
 
-```javascript
+``` javascript
 npm run test
 ```
 
-```javascript
+``` javascript
 npm run build
 ```
 
-```javascript
+``` javascript
 npm run start
 ```
 
